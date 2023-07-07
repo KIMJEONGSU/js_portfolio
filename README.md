@@ -1,4 +1,4 @@
-# JS's js_portfolio
+# JS's portfolio
 
 ### 1. 👗ecommerce ( 인도네시아 이커머스 플랫폼 개선 프로젝트 )   [바로가기](https://github.com/KIMJEONGSU/js_portfolio/tree/main/ecommerce)
 Fashion Campus는 15-35세 젊은 층의 시장 점유율을 보유한 전자 상거래 패션 회사로, 유기적이지 않은 사용자 수의 영향으로 인해 사용자들이 거래를 위해 플랫폼으로 돌아오지 않는 이탈 문제점이 있습니다. 이를 해결하고 이탈 예측하고자함.
