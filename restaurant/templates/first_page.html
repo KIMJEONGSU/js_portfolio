@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+
+  <!-- 대가리대가리대가리대가리대가리대가리대가리대가리대가리 -->
+  <head>
+
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+	
+    <style>
+      body {
+        overflow: scroll;
+        font-family: 'Comic Sans MS', sans-serif;
+      }
+    </style>
+    <style>
+      .header {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        background-color: #fff;
+        z-index: 9999;
+        box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+      }
+      .navbar {
+      position: fixed;
+      top: 1;
+      left: 0;
+      right: 0;
+      }
+    </style>
+  </head>
+
+  <body>
+
+    <div class="navbar navbar-dark bg-dark shadow-sm d-flex justify-content-center" >
+      
+      <div class="container">
+        <a href="http://127.0.0.1:5000" class="navbar-brand d-flex align-items-center">
+          <strong>AI_17_김정수</strong>
+        </a>
+        <a href="#section1" class="navbar-brand d-flex align-items-center">
+          <strong>CONTENTS</strong>
+        </a>
+        <a href="#section2" class="navbar-brand d-flex align-items-center">
+          <strong>INTRODUCTION</strong>
+        </a>
+        <a href="#section3" class="navbar-brand d-flex align-items-center">
+          <strong>DASHBOARD</strong>
+        </a>
+        <a href="#section4" class="navbar-brand d-flex align-items-center">
+          <strong>RESULT</strong>
+        </a>
+      </div>     
+    </div>
+
+    <section class="py-5 text-center container">
+      <div class="row py-lg-5">
+        <div class="col-lg-20 col-md-8 mx-auto">
+          <br>
+          <h1 class="fw-light">Restaurant recommendation web service</h1>
+          <br>
+          <br>
+          <p class="lead text-muted">
+            <br>안녕하세요. 리뷰 기반 맛집 추천 웹 서비스입니다.
+            <br>
+            <br>인터넷으로 다양한 정보를 쉽게 접근 가능하지만, 
+            <br>정보의 과잉으로 어떤 결정을 하는데 많은 어려움을 느끼는 경우가 많습니다.
+            <br>이러한 문제를 해결하기 위해 평가나 리뷰를 기반으로 
+            <br>고객에게 쉽고 빠르게 맛집을 찾아주기 위해 프로젝트를 진행하게되었습니다.
+            <br>
+          </p>
+        </div>
+      </div>
+      <div style="text-align: center;">
+        <img src="/static/photo.png" alt="image" style="display: block; width: 70%; margin: 0 auto;">
+      </div>
+      <br>
+      <br>
+      <br>
+    </section>
+    <br>
+    <section class="py-5 text-center container" id="section1">
+      <div class="row py-lg-5">
+        <div class="col-lg-6 col-md-8 mx-auto">
+          <br>
+          <h1 class="fw-light">CONTENTS</h1>
+          <br>
+          <br>
+          <h3>✅소개</h3>
+          <br>
+          <h5>데이터</h5>
+          <h5>파이프라인</h5>
+          <h5>모델</h5>
+          <br>
+          <h3>✅대시보드</h3>
+          <br>
+          <h3>✅결과</h3>
+          <br>
+          <h5>시연</h5>
+          <h5>한계점 및 개선사항</h5>
+              
+        </div>
+      </div>
+    </section>
+    <br>
+    <section class="py-5 text-center container" id="section2">
+      <div class="row py-lg-5">
+        <div class="col-lg-6 col-md-8 mx-auto">
+          <br>
+          <h1 class="fw-light">INTRODUCTION</h1>
+          <br>
+          <p class="lead text-muted">
+            <br>
+            <h4>🔍데이터</h4>
+            <h6>공공데이터(상가정보_서울.csv), 카카오맵(별점과 리뷰.selenium)</h6>
+            <br>
+            <div style="text-align: center;">
+              <img src="/static/photo3.png" alt="image" style="display: block; width: 100%; margin: 0 auto;">
+            </div>
+            <br>
+            <br>
+            <h4>🔍파이프라인</h4>
+            <br>
+            <div style="text-align: center;">
+              <img src="/static/photo2_new.png" alt="image" style="display: block; width: 100%; margin: 0 auto;">
+            </div>
+            <br>
+            <br>
+            <h4>🔍 Doc2Vec 모델</h4>
+            <br>
+            <br>정규식(숫자, 영어 제거)➡️형태소 분석➡️불용어 제거
+            <br>➡️Doc2Vec 모델을 사용해서 문서, 문장, 문단, 단어 간 유사도를 계산해서 맛집 추천.
+            <br> 
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="py-5 text-center container" id="section3">
+      <div class="row py-lg-5">
+        <div class="col-lg-15 col-md-8 mx-auto">
+          <br>
+          <h1 class="fw-light">DASHBOARD</h1>
+          <br>
+          <p class="lead text-muted">
+            <div style="text-align: center;">
+              <img src="/static/dash.png" alt="image" style="display: block; width:100%; margin: 0 auto;">
+            </div>
+          </p>
+        </div>
+      </div>
+      <div class="d-grid gap-2 col-3 mx-auto">
+        <button class="btn btn-primary" type="button" onclick="window.location.href='http://localhost:3000/dashboard/65-section4'">move</button>
+      </div>
+    </section>
+    <section class="py-5 text-center container" id="section4">
+      <div class="row py-lg-10">
+        <div class="col-lg-30 col-md-10 mx-auto">
+          <h1 class="fw-light">RESULT</h1><br>
+
+          <form method="post">
+            <input type="text" name="input_value">
+            <button type="submit" name="submit_button" onclick="func()">Submit</button>
+          </form>
+          
+          <table class="table">
+            
+           <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">음식점 이름</th>
+                <th scope="col">유사도</th>
+              </tr>
+            </thead>
+          {% for item in result %}
+            <tbody class="table-group-divider">
+              <tr>
+                <th scope="row">{{loop.index}}</th>
+                <td>{{item[0]}}</td>
+                <td>{{item[1]}}</td>
+              </tr>
+          {% endfor %}
+            </tbody>
+          </table>
+
+          <script type="text/javascript">
+            function func() {
+              let input_value = document.getElementsByName("input_value")[0].value;
+              if(inputValue == ""){
+                alert('단어를 입력해주세요.');
+              }
+              else {
+                var inputValue = document.getElementById("inputValue").value;
+		          	document.getElementById("result").innerHTML = result;
+                
+              }
+              }
+            
+            </script>
+
+
+          <br><p class="lead text-muted">
+            <h4>🔍한계점 및 개선사항</h4>
+            <br>
+            <br>⚙️Doc2Vec 모델에 대한 낮은 이해와 수집된 리뷰 데이터의 질이 좋지 않아 모델 성능이 많이 좋지 않았음.
+            <br>⚙️카카오맵에서 웹 크롤링을 진행했지만, 식당 폐업이나 카카오맵에 등록되지 않은 식당들로 인해 데이터 수집에 한계가 있었음.
+            <br>⚙️크롤링 시간이 생각보다 오래 걸려서 서울 동작구에 한해서 분석 진행. 추후에 추가로 수집할 예정.
+            <br>⚙️Result에서 submit버튼 클릭시 스크롤이 위로 갔다가 다시 아래로 내려옴. 해결 필요해보임.
+            <br>⚙️build_vocab() 메서드는 단어와 태그들을 분석하여 모델에서 사용할 단어 사전(vocabulary)을 생성하는데, 
+            <br>입력한 검색어가 이 단어사전에 없다면 오류 발생. 해결 필요해보임.
+            
+          </p>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
