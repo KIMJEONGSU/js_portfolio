@@ -2,6 +2,19 @@
 
 <br>
 
+- 분석 기간 : 2023.05.15 ~ 2023.05.25
+- 4인 프로젝트
+- 기술스택
+
+|Programming & Markup Language|__Python, SQL, Flask, HTML, Bootstrap, JavaScript__|
+|:--------:|:-------:|
+|__IDE & Environment__|__VSCode__|
+|__Database & Cloud DB__|__Google BigQuery__|
+|__Visualization Analysis__|__Looker__|
+|__Back_end__|__AWS EC2__|
+
+<br>
+
 ### <목차>
 1. 프로젝트 개요
 2. 프로젝트 수행절차
@@ -172,6 +185,10 @@ app
   * 여행경비 총합 기능 : 항공권, 호텔, 렌터카에 대한 항목을 선택하게 되면 Javascript와 이벤트 리스너로 인해 여행 경비 총합을 계산하여 사용자에게 정보 제공.
   ![image](https://github.com/KIMJEONGSU/Travel_Expense_Information_Web_Developm/assets/23291338/40bc091c-967d-4af3-8043-3c2ffcb08107)
 
+* 웹 배포
+ * <작성중>
+
+   
 <br>
 
 #### 2.5. 대시보드
