@@ -4,7 +4,7 @@
 - 분석 기간 : 2022.12.30 ~ 2023.01.05
 - 1인 프로젝트
 - 기술 스택
-- 
+  
 |Programming & Markup Language|__Python__|
 |:--------:|:-------:|
 |__IDE & Environment__|__colab__|
