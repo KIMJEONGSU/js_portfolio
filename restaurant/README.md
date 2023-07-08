@@ -2,6 +2,20 @@
 
 <br>
 
+- 분석 기간 : 2023.04.07 ~ 2023.04.12
+- 1인 프로젝트
+- 기술 스택
+  
+|Programming & Markup Language|__Python, Flask, HTML, JavaScript__|
+|:--------:|:-------:|
+|__IDE & Environment__|__VSCode__|
+|__Database & Cloud DB__|__PostgreSQL__|
+|__Visualization Analysis__|__metabase__|
+|__Model__|__Doc2Vec__|
+|__Deployment__|__Docker__|
+
+<br>
+
 ### <목차>
 1. 프로젝트 개요
 2. 프로젝트 수행절차
