@@ -2,6 +2,17 @@
 
 <br>
 
+- 분석 기간 : 2023.02.03 ~ 2023.02.13
+- 1인 프로젝트
+- 기술스택
+
+|Programming & Markup Language|__Python__|
+|:--------:|:-------:|
+|__IDE & Environment__|__colab__|
+|__Model__| __Logistic, DecisionTree, RandonForest, XGBoost__|
+
+<br>
+
 ### <목차>
 1. 프로젝트 개요
 2. 프로젝트 수행절차
