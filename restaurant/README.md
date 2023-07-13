@@ -8,11 +8,10 @@
   
 |Programming & Markup Language|__Python, Flask, HTML, JavaScript__|
 |:--------:|:-------:|
-|__IDE & Environment__|__VSCode__|
+|__IDE & Environment__|__VSCode, Docker__|
 |__Database & Cloud DB__|__PostgreSQL__|
 |__Visualization Analysis__|__metabase__|
 |__Model__|__Doc2Vec__|
-|__Deployment__|__Docker__|
 
 <br>
 
