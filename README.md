@@ -27,6 +27,7 @@ Fashion Campus는 15-35세 젊은 층의 시장 점유율을 보유한 전자 �
 |IDE & Environment|__VSCode__|
 |Database & Cloud DB|__Google BigQuery__|
 |Visualization Analysis|__Looker__|
+|Back_end|__AWS EC2__|
 
 <br>
 

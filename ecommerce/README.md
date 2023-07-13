@@ -2,14 +2,26 @@
 
 <br>
 
+- 분석 기간 : 2023.06.07 ~ 2023.07.04
+- 4인 프로젝트
+- 기술스택
+
+|Programming & Markup Language|__Python__|
+|:--------:|:-------:|
+|__IDE & Environment__|__VSCode__|
+|__Database & Cloud DB__|__Google Drive__|
+|__Model__|__Logistic Regression, XGBoost, Decision Tree, Random Forest, CatBoost__|
+
+<br>
+
 ### <목차>
 1. 프로젝트 개요
 2. 프로젝트 수행절차   
    2.1 데이터 소개   
    2.2 EDA   
    2.3 문제정의   
-   2.4 결과
-   2.5 이탈 예측 모델
+   2.4 결과   
+   2.5 이탈 예측 모델   
 4. 한계점 및 개선사항
 
 <br>
@@ -25,13 +37,12 @@
   
 <br>
 
-
 #### 2. 프로젝트 수행절차   
 2.1 데이터 소개  
 <table>
   <tr>
     <td>
-      <img src="https://github.com/KIMJEONGSU/Portfolio/assets/23291338/11d76724-a988-4225-900a-f1ea1ddfb750" width="70%" height="70%">
+      <img src='https://github.com/KIMJEONGSU/js_portfolio/assets/23291338/17fe3771-91a2-4163-929a-485ae78333c0' width="70%" height="70%">
     </td>
     <td>     
         <p><customer 데이터></p>
@@ -42,7 +53,7 @@
   </tr>
   <tr>
     <td>
-      <img src="https://github.com/KIMJEONGSU/Portfolio/assets/23291338/2058132c-a9c3-4c1f-b1c3-1950462282c4" width="70%" height="70%">
+      <img src="https://github.com/KIMJEONGSU/js_portfolio/assets/23291338/0774741d-f5c3-484a-9020-01f96d54087a" width="70%" height="70%">
     </td>
     <td>     
       <p><product 데이터></p>
@@ -53,7 +64,7 @@
   </tr>
     <tr>
     <td>
-      <img src="https://github.com/KIMJEONGSU/Portfolio/assets/23291338/84ff5aea-94d6-4344-ae91-67647ae7b5b1" width="70%" height="70%">
+      <img src="https://github.com/KIMJEONGSU/js_portfolio/assets/23291338/761f123f-df34-4f2b-bb64-ee78ca091dc5" width="70%" height="70%">
     </td>
     <td>     
       <p><click_stream_new 데이터></p>
@@ -64,7 +75,7 @@
   </tr>
     <tr>
     <td>
-      <img src="https://github.com/KIMJEONGSU/Portfolio/assets/23291338/51836d64-77e4-481e-8f09-ac46e6b8a4b7" width="70%" height="70%">
+      <img src="https://github.com/KIMJEONGSU/js_portfolio/assets/23291338/f167103f-9a19-444c-9373-1dd794406c96" width="70%" height="70%">
     </td>
     <td>     
       <p><transaction_new 데이터></p>
@@ -74,6 +85,7 @@
     </td>
   </tr>
 </table>
+
 
 <br>
 
