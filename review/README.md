@@ -8,11 +8,10 @@
 
 |Programming & Markup Language|__Python__
 |:--------:|:-------:|
-|__IDE & Environment__|__VSCode__|
+|__IDE & Environment__|__VSCode, Docker__|
 |__Database & Cloud DB__|__MongoDB__|
 |__Visualization Analysis__|__metabase__|
 |__Model__|__MLP, LSTM, CNN__|
-|__Deployment__|__Docker__|
 
 <br>
 
