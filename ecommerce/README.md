@@ -42,7 +42,7 @@
 <table>
   <tr>
     <td>
-      <img src='https://github.com/KIMJEONGSU/js_portfolio/assets/23291338/17fe3771-91a2-4163-929a-485ae78333c0' width="70%" height="70%">
+      <img src='photo_f/스크린샷 2023-07-13 200808.png' width="70%" height="70%">
     </td>
     <td>     
         <p><customer 데이터></p>
@@ -53,7 +53,7 @@
   </tr>
   <tr>
     <td>
-      <img src="https://github.com/KIMJEONGSU/js_portfolio/assets/23291338/0774741d-f5c3-484a-9020-01f96d54087a" width="70%" height="70%">
+      <img src="photo_f/스크린샷 2023-07-13 201229.png" width="70%" height="70%">
     </td>
     <td>     
       <p><product 데이터></p>
@@ -64,7 +64,7 @@
   </tr>
     <tr>
     <td>
-      <img src="https://github.com/KIMJEONGSU/js_portfolio/assets/23291338/761f123f-df34-4f2b-bb64-ee78ca091dc5" width="70%" height="70%">
+      <img src="photo_f/스크린샷 2023-07-13 201236.png" width="70%" height="70%">
     </td>
     <td>     
       <p><click_stream_new 데이터></p>
@@ -75,7 +75,7 @@
   </tr>
     <tr>
     <td>
-      <img src="https://github.com/KIMJEONGSU/js_portfolio/assets/23291338/f167103f-9a19-444c-9373-1dd794406c96" width="70%" height="70%">
+      <img src="photo_f/스크린샷 2023-07-13 201246.png" width="70%" height="70%">
     </td>
     <td>     
       <p><transaction_new 데이터></p>
