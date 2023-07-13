@@ -39,7 +39,7 @@
 <table>
   <tr>
     <td>
-      <img src="https://github.com/KIMJEONGSU/Portfolio/assets/23291338/9cddb3a8-6db9-4aa2-ba5f-d86f2fce212c" width="100%" height="100%">
+      <img src="https://github.com/KIMJEONGSU/js_portfolio/assets/23291338/a649836f-225a-48aa-a87b-f4c40859e256" width="100%" height="100%">
     </td>
     <td>   
       <p><공공데이터></p>
@@ -49,7 +49,7 @@
   </tr>
     <tr>
     <td>
-      <img src="https://github.com/KIMJEONGSU/Portfolio/assets/23291338/7e640652-0c62-465d-a057-8f4cd143c6d5" width="100%" height="100%"> 
+      <img src="https://github.com/KIMJEONGSU/js_portfolio/assets/23291338/d9991b29-616e-482c-965a-3b44e5082133" width="100%" height="100%"> 
     </td>
     <td>      
        <p><크롤링 데이터></p>
@@ -62,7 +62,8 @@
 <br>
 
 #### 2.2. 파이프라인 소개
-![image](https://github.com/KIMJEONGSU/Review_based_restaurant_recommendations/assets/23291338/f05394bc-b975-4fa1-9bf5-0866060615d2)
+![스크린샷 2023-07-13 224411](https://github.com/KIMJEONGSU/js_portfolio/assets/23291338/4f83b7af-587b-4a03-8c55-fddcd7f228e3)
+
 * 도커로 PostgreSQL과 Metabase 환경 구축
 * 셀레니움과 CSV파일로 수집한 데이터는 PostgreSQL에 적재.
 * 로컬 파이썬에서 PostgreSQL로부터 데이터 가지고와서 전처리 및 모델 학습 진행.
@@ -75,7 +76,7 @@
 #### 2.3. 데이터 전처리
 * 숫자와 영어는 정규식으로 제거.
 * 형태소 분석시 중 Okt를 사용했고, 한글 불용어는 파이썬 라이브러리가 없어서 직접 불용어 사전을 만들어 제거.
-![image](https://github.com/KIMJEONGSU/Portfolio/assets/23291338/e8aad550-ba62-45b6-97d0-9dc248f68b40)
+![스크린샷 2023-07-13 224440](https://github.com/KIMJEONGSU/js_portfolio/assets/23291338/4ea722ce-da16-4e17-af43-26f5bd7a426a)
 
 <br>
 
@@ -88,10 +89,10 @@ Doc2Vec 모델은 Word2Vec에서 확장된 개념입니다. Doc2Vec은 문장, �
 ### 3. 결과
 * 결과
 검색창에 예시로 카페를 검색한다면 해당 검색어에 대한 유사도가 높은 순서대로 결과를 출력해주고, 검색어로 인해 출력된 결과물은 다시 데이터베이스에 저장이 되고, 대시보드에서도 해당 데이터를 확인할 수 있습니다.
-![image](https://github.com/KIMJEONGSU/Portfolio/assets/23291338/85eec653-b769-48fe-9f49-d2fb5d059b0a)
+![스크린샷 2023-07-13 224458](https://github.com/KIMJEONGSU/js_portfolio/assets/23291338/819ad4d7-9076-4a50-a58d-2dc3f468584f)
 
 * 대시보드
-![image](https://github.com/KIMJEONGSU/Portfolio/assets/23291338/07e1337b-08c6-4354-b157-8488ac035253)
+![스크린샷 2023-07-13 224512](https://github.com/KIMJEONGSU/js_portfolio/assets/23291338/66c9bc1e-5c74-4bce-a23f-ca5bee8de8cc)
 
 <br>
 
