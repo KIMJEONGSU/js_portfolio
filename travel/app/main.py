@@ -1,6 +1,5 @@
 from flask import Flask, render_template, request, jsonify
 from bigquery import clinet_bigquery
-import func
 import json
 
 

@@ -10,7 +10,7 @@ from google.oauth2 import service_account
 
 def clinet_bigquery(sql_query):
     # 서비스 계정 키 JSON 파일 경로
-    key_path = glob('./app/config/*.json')[0]
+    key_path = glob('./config/*.json')[0]
 
     # Credentials 객체 생성
     credentials = service_account.Credentials.from_service_account_file(key_path)
@@ -28,5 +28,4 @@ def clinet_bigquery(sql_query):
     df = query_job.to_dataframe()
 
     return df
-
 
