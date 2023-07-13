@@ -98,8 +98,8 @@
 
 <br>
 
-1. selenium을 사용하여 웹 크롤링 후 BigQuery Database에 적재.
-2. BigQuery와 Looker 그리고 웹서버 연동.
+1. selenium을 사용하여 웹 스크래핑 후 BigQuery Database에 적재.
+2. BigQuery와 Looker 그리고 Python 연동.
 3. 사용자가 날짜 입력 또는 기타옵션 선택시 URL 호출
 4. 호출한 URL로 지정된 뷰함수 호출
 5. 호출한 요청을 분석 및 논리 실행
