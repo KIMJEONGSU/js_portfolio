@@ -96,11 +96,11 @@
 <table>
   <tr>
     <td>
-      <img src="https://github.com/KIMJEONGSU/Portfolio/assets/23291338/cbb3d4e6-3a71-48b3-8c1e-2231611f69a5" width="90%" height="90%">
+      <img src="photo_f/total_amount분포.png" width="90%" height="90%">
        <p><총합 outlier></p>
     </td>
     <td>     
-      <img src="https://github.com/KIMJEONGSU/Portfolio/assets/23291338/595f20e1-6a45-4ebd-8131-f7c0ae3b05de" width="100%" height="100%">  
+      <img src="photo_f/스크린샷 2023-07-13 205618.png" width="60%" height="60%">  
        <p><배송비 outlier></p>
     </td>
   </tr>
@@ -112,63 +112,63 @@
 <table>
   <tr>
     <td>
-      <img src="https://github.com/KIMJEONGSU/Portfolio/assets/23291338/a43bba88-06e5-404c-9dad-9fb3de299f31" width="90%" height="90%">
+      <img src="photo_f/연령대비율.png" width="90%" height="90%">
        <p><연령층></p>
           <p>15-35세가 주요 연령층인 만큼 20대가 52%</p>
     </td>
     <td>     
-      <img src="https://github.com/KIMJEONGSU/Portfolio/assets/23291338/7396ed48-3dd7-4b4b-b9da-521b4a530cdf" width="100%" height="100%">  
+      <img src="photo_f/스크린샷 2023-07-13 211950.png" width="100%" height="100%">  
        <p><성별></p>
       <p>여성 64%, 남성 36%</p>
     </td>
    <td>     
-      <img src="https://github.com/KIMJEONGSU/Portfolio/assets/23291338/d62696a9-8aa1-4000-a8ed-f459aa825a6c" width="100%" height="100%">  
+      <img src="photo_f/스크린샷 2023-07-13 212415.png" width="100%" height="100%">  
        <p><거주지 분포></p>
           <p>인도네시아 전 지역에 고루 분포</p>
     </td>
   </tr>
  <tr>
     <td>
-      <img src="https://github.com/KIMJEONGSU/Portfolio/assets/23291338/21f85d39-b093-4ec6-ae20-6be9077111c3" width="100%" height="100%">
+      <img src="photo_f/결제수단비율.png" width="100%" height="100%">
        <p><결제방식></p>
           <p>많이 사용하는 방식으로는 신용카드 35%, Gopay & OVO 20% </p>
     </td>
     <td>     
-      <img src="https://github.com/KIMJEONGSU/Portfolio/assets/23291338/76c63ff7-2771-4d70-a2ee-b6cc7a46a1dc" width="100%" height="100%">  
+      <img src="photo_f/프로모션사용비율.png" width="100%" height="100%">  
        <p><프로모션 적용 여부></p>
           <p>적용하지 않는 경우가 61.7%로 고객들이 프로모션을 잘 사용하지 않고 있음</p>
     </td>
    <td>     
-      <img src="https://github.com/KIMJEONGSU/Portfolio/assets/23291338/4f2e1ca0-792b-4260-83bd-bdee3f99d2db" width="85%" height="85%"> 
+      <img src="photo_f/계절별 상품비율.png" width="85%" height="85%"> 
        <p><계절별 상품비율></p>
           <p>여름 제품 48%, 가을 제품 26% 순으로 많음</p>
     </td>
   </tr>
  <tr>
     <td>
-      <img src="https://github.com/KIMJEONGSU/Portfolio/assets/23291338/b803764b-c4d7-48c2-b05f-6b7737a6578f" width="90%" height="90%">
+      <img src="photo_f/성별에 따른 상품.png" width="90%" height="90%">
        <p><성별에 따른 상품></p>
           <p>여성이 64%로 많지만 남성 제품이 약 50%로 가장 많음</p>
     </td>
     <td>     
-      <img src="https://github.com/KIMJEONGSU/Portfolio/assets/23291338/5fc3458f-d0f6-4302-b4ed-6c3d970c0cfb" width="100%" height="100%">  
+      <img src="photo_f/성별에 따른 상품.png" width="100%" height="100%">  
        <p><상품 스타일></p>
           <p>인도네시아 특성상 캐주얼 제품이 78%로 가장 많음</p>
     </td>
     <td>     
-      <img src="https://github.com/KIMJEONGSU/Portfolio/assets/23291338/d454e5a4-ed37-4380-9b94-e8b4678d2361" width="90%" height="90%"> 
+      <img src="photo_f/상품 카테고리.png" width="90%" height="90%"> 
        <p><상품 카테고리></p>
           <p>Apparel이 49.2%로 가장 많이 차지</p>
     </td>
   </tr>
  <tr>
     <td>
-      <img src="https://github.com/KIMJEONGSU/Portfolio/assets/23291338/d8a42558-6faa-40ea-9637-d885fea8fc98" width="90%" height="90%">
+      <img src="photo_f/세부카테고리.png" width="90%" height="90%">
        <p><세부 카테고리></p>
           <p>Topwear(34.7%), shoes(16.5%) 순으로 가장 많이 차지</p>
     </td>
     <td>     
-      <img src="https://github.com/KIMJEONGSU/Portfolio/assets/23291338/d99aa517-74ba-4b02-af8c-a14835131645" width="100%" height="100%">  
+      <img src="photo_f/형식 카테고리.png" width="100%" height="100%">  
        <p><형식 카테고리></p>
           <p>Tshirts (15.9%) 가 가장 많이 차지</p>
     </td>
@@ -183,23 +183,23 @@
 <table>
   <tr>
     <td>
-      <img src="https://github.com/KIMJEONGSU/Portfolio/assets/23291338/cff5f065-dc8b-4107-ae9c-482087f65c1d" width="90%" height="90%">
+      <img src="photo_f/스크린샷 2023-07-13 212921.png" width="90%" height="90%">
        <p><시간별 구매전환율></p>
           <p>오후 3시이후부터 오전 5시이전까지 높은 구매전환율</p>
     </td>
     <td>     
-      <img src="https://github.com/KIMJEONGSU/Portfolio/assets/23291338/43cde7f6-3336-452e-b2f7-4b00cd0d3f3e" width="100%" height="100%">  
+      <img src="photo_f/스크린샷 2023-07-13 212941.png" width="90%" height="90%">  
        <p><월별 구매전환율></p>
       <p>7월에 높은 구매전환율</p>
     </td>   
 </table>  
 
 - 신규 가입자의 유입 : 매년 신규 가입자가 꾸준히 증가하고 7월에 폭발적인 신규 가입자가 유입되고 있음.
-![image](https://github.com/KIMJEONGSU/Portfolio/assets/23291338/5cc9189b-d837-417b-a8a9-93179bb6cca6)
+<img src="photo_f/신규가입자의유입.png">
 
 - 매출의 감소 : 꾸준히 상승세였던 매출이 2022년 6월과 7월, 2개월 연속으로 감소함.
    - 전월 대비 7월 감소율 ▼11.67% ( 전월 대비 6,7월 총 감소율 ▼16.26%)
-![image](https://github.com/KIMJEONGSU/Portfolio/assets/23291338/75ac0a12-235f-4ce9-8ec3-03c86e65e944)
+<img src="photo_f/매출감소추이.png">
 
 <br>
 
@@ -210,12 +210,12 @@
 <table>
   <tr>
     <td>
-      <img src="https://github.com/KIMJEONGSU/Portfolio/assets/23291338/2c772e1e-8549-4a37-bbf1-bdba7779dd89" width="100%" height="100%">
-       <p><연도별 비활성 고객률></p>
+      <img src="photo_f/연도별비활성고객비율.png" width="100%" height="100%">
+       <p><연도별 비활성 고객 비율></p>
     </td>
     <td>     
-      <img src="https://github.com/KIMJEONGSU/Portfolio/assets/23291338/441945ac-c475-4ddc-9a83-84b3373ea58e" width="90%" height="90%"> 
-       <p><연도별 일회성 고객의 매출></p>
+      <img src="photo_f/연도별일회성고객의 매출.png" width="100%" height="100%"> 
+       <p><연도별 재구매율></p>
     </td>
 </tr>
 </table>  
@@ -226,28 +226,28 @@
 <table>
   <tr>
     <td>
-      <img src="https://github.com/KIMJEONGSU/Portfolio/assets/23291338/1e92a6fc-3098-445c-aa41-6eda0a7c50e4" width="100%" height="100%">
-       <p><연도별 일회성 고객률></p>
+      <img src="photo_f/일회성고객비율.png" width="100%" height="100%">
+       <p><연도별 일회성 고객 비율></p>
     </td>
     <td>     
-      <img src="https://github.com/KIMJEONGSU/Portfolio/assets/23291338/01ac09c2-8af4-42c6-a4cc-d825d26d11c2" width="90%" height="90%"> 
+      <img src="photo_f/일회성고객매출비중.png" width="100%" height="100%"> 
        <p><연도별 일회성 고객의 매출></p>
     </td>   
 </table>  
 
 * 일회성 고객률이 하락하고 있었지만,  유지 또는 상승하는 경향으로 바뀐 2022년 시점에서 매출이 감소함을 확인하고 일회성 고객의 유지 또는 증가하는 경향성이 영향을 주었다고  생각되어 일회성 고객을 충성고객으로 전환시킬 필요가 있다고 판단
-<img src="https://github.com/KIMJEONGSU/Portfolio/assets/23291338/d0a03dde-0b74-4f07-b253-86767e4d7a1b" width="70%" height="70%">
+<img src="photo_f/구매주기구간별고객수.png" width="70%" height="70%">
 
 * 한 번도 구매하지 않은 고객을 제외한 후(50,705명), 고객별 평균 구매주기를 봤을 때 당일에 구매 후 이탈하는 고객이 20%, 29일 이후로 구매하는 고객이 60%를 차지. 이 그래프를 통해서도 일회성 고객을 더 세부적으로 분석해 볼 필요가 있다고 판단
 * 일회성 고객의 특징
 <table>
   <tr>
     <td>
-      <img src="https://github.com/KIMJEONGSU/Portfolio/assets/23291338/4c7b074f-41f4-4066-b0b2-7d0f075d21a1" width="50%" height="50%">
+      <img src="photo_f/스크린샷 2023-07-13 201911.png" width="50%" height="50%">
       <p><일회성 고객의 구매 상품 카테고리></p>
     </td>
     <td>
-      <img src="https://github.com/KIMJEONGSU/Portfolio/assets/23291338/622812c1-f16e-47c2-8679-46eb2761a1a0" width="100%" height="100%">
+      <img src="photo_f/일회성고객의주요구매요일.png" width="100%" height="100%">
       <p><일회성 고객의 구매 요일></p>
     </td>
   </tr>
@@ -261,7 +261,7 @@
   </tr>
  <tr>
     <td colspan="2">
-      <img src="https://github.com/KIMJEONGSU/Portfolio/assets/23291338/2ec6e0ee-c59b-4ac2-9ee2-81f139508c5a" width="80%" height="80%">
+      <img src="photo_f/일회성고객의검색비율.png" width="80%" height="80%">
        <p><일회성 고객의 전체 검색 비율과 중고 검색에 대한 비율></p>
     </td>
   </tr>
@@ -273,7 +273,7 @@
   </tr>
   <tr>
     <td colspan="2">
-      <img src="https://github.com/KIMJEONGSU/Portfolio/assets/23291338/5b49926a-1930-458d-b4e8-3615ea750103" width="90%" height="90%">
+      <img src="photo_f/일회성고객의특징3.png" width="90%" height="90%">
        <p><2022년 월별 일회성 고객과 다회성 고객의 객단가 비교 그래프></p>
     </td>
   </tr>
@@ -286,12 +286,12 @@
   </tr>
   <tr>
     <td>
-      <img src="https://github.com/KIMJEONGSU/Portfolio/assets/23291338/3936ea69-e56c-4c19-adf2-4a887b1c62ca" width="80%" height="80%">
-      <p><일회성 고객의 프로모션 사용 여부></p>
+      <img src="photo_f/2022년 일회성고객의 프로모션적용여부비율.png" width="80%" height="80%">
+      <p><2022년 일회성 고객의 프로모션 사용 여부></p>
     </td>
     <td>
-      <img src="https://github.com/KIMJEONGSU/Portfolio/assets/23291338/56d467c4-f34c-493e-a4c3-35df7d5fd921" width="100%" height="100%">
-      <p><다회성 고객의 프로모션 적용 여부></p>
+      <img src="photo_f/2022년 다회성고객의 프로모션적용여부비율.png" width="100%" height="100%">
+      <p><2022년 다회성 고객의 프로모션 적용 여부></p>
     </td>
   </tr>
   <tr>
@@ -304,11 +304,11 @@
          
 <tr>
     <td>
-      <img src="https://github.com/KIMJEONGSU/Portfolio/assets/23291338/3d71abca-3ae2-4427-8b0a-0accba704055" width="80%" height="80%">
+      <img src="photo_f/일회성고객의 나이대분포.png" width="80%" height="80%">
       <p><일회성 고객의 나이대 분포></p>
     </td>
     <td>
-      <img src="https://github.com/KIMJEONGSU/Portfolio/assets/23291338/de66acf6-4317-46c9-a6ff-81b5be2c738d" width="100%" height="100%">
+      <img src="photo_f/이탈률.png" width="100%" height="100%">
       <p><나이별 평균 이탈율></p>
     </td>
   </tr>
@@ -321,12 +321,12 @@
 
    <tr>
     <td>
-      <img src="https://github.com/KIMJEONGSU/Portfolio/assets/23291338/23380622-5716-4dfe-acf0-31aeffcc914f" width="80%" 
+      <img src="photo_f/고객의재구매율.png" width="80%" 
          height="80%">
       <p><고객의 재구매율></p>
     </td>
     <td>
-      <img src="https://github.com/KIMJEONGSU/Portfolio/assets/23291338/17001f6c-f68e-4fae-9f8f-00a445d76395" width="100%" height="100%">
+      <img src="photo_f/프로모션 적용여부에따른 고객의 재구매율.png" width="100%" height="100%">
       <p><프로모션 적용 여부에 따른 고객의 재구매율></p>
     </td>
   </tr>
@@ -347,16 +347,16 @@
    * 마케팅 팀의 시장조사 결과, 대유행 기간 동안 인도네시아에서 15~35세의 젊은 층인 "Indonesian Young Urbans"가 헌 옷을 절약하거나 사고파는 연습을
    시작한 점에서 검색 키워드에 중고상품을 검색하는 경우가 많은 것으로 보임.
    * 중고상품을 검색한 경우가 21,22년에 644,613개 중 108,103개(16.8%)가 나오는 만큼 중고상품에 대한 관심도가 높은 편
-   <img src="https://github.com/KIMJEONGSU/Portfolio/assets/23291338/6a9e6cc0-726d-402b-aecd-3abf276eb0b6" width="70%" height="70%">
+   <img src="photo_f/23291338/6a9e6cc0-726d-402b-aecd-3abf276eb0b6" width="70%" height="70%">
 * 사용자가 중고 검색 후 상품을 담는 경우가 전체의 11%이고, 중고를 재검색하는 경우가 전체의 63%. 이때 재검색한 경우에도 중고상품을 다시 검색하는 경우가 97%으로 나타난 것으로 보아 이는 그만큼 원하는 중고 상품이 없었기 때문이라고 판단
 <table>
   <tr>
     <td>
-      <img src="https://github.com/KIMJEONGSU/Portfolio/assets/23291338/7dfc4c8d-f52e-435b-8a7e-d48557418301" width="100%" height="100%">
+      <img src="photo_f/중고상품검색후다음행동.png" width="100%" height="100%">
        <p><중고상품 검색 후 다음 행동></p>
     </td>
     <td> 
-      <img src="https://github.com/KIMJEONGSU/Portfolio/assets/23291338/3748e291-e0b5-435f-9747-963855affdb6" width="100%" height="100%">  
+      <img src="photo_f/중고상품검색후검색키워드.png" width="100%" height="100%">  
        <p><중고상품 검색 후 검색 키워드></p>
     </td>  
    </tr>
@@ -367,11 +367,11 @@
 <table>
   <tr>
     <td>
-      <img src="https://github.com/KIMJEONGSU/Portfolio/assets/23291338/fb0b28d4-dbd2-45ac-ab37-3d25dd865b26" width="60%" height="60%">
+      <img src="photo_f/전체구매자수,중고상품구매자비율.png" width="60%" height="60%">
        <p><전체 구매자 수(막대), 중고상품 구매자 비율(선)></p>
     </td>
     <td> 
-      <img src="https://github.com/KIMJEONGSU/Portfolio/assets/23291338/f0fd3095-0b12-466e-b68b-2c561ab0952b" width="60%" height="60%">  
+      <img src="photo_f/등록된상품중중고상품비중.png" width="60%" height="60%">  
        <p><등록된 상품 중 상품별 비중> </p>
     </td>  
    </tr>
@@ -384,14 +384,14 @@
 <table>
   <tr>
     <td>
-      <img src="https://github.com/KIMJEONGSU/Portfolio/assets/23291338/fb0b28d4-dbd2-45ac-ab37-3d25dd865b26" width="60%" height="60%">
-       <p><월별 프로모션 사용 비율></p>
+      <img src="photo_f/프로모션사용비율.png" width="50%" height="50%">
+       <p><프로모션 사용 비율></p>
           <p>현 이커머스 플랫폼에서 프로모션을 사용하지 않는 경우가 전체 구매자의 61.7%</p>
     </td>  
    </tr>
   <tr>
  <td>
-   <img src="https://github.com/KIMJEONGSU/Portfolio/assets/23291338/cb743429-d49e-4b59-b6e8-ec0862512c8d" width="100%" height="100%">
+   <img src="photo_f/월별프로모션적용여부에따른전체수와사용률.png" width="100%" height="100%">
     <p><월별 프로모션 적용 여부에 따른 전체 경우의 수(바), 프로모션 사용률<라인)></p>
     <p>2022년 6월과 7월의 고객 프로모션 사용률 감소</p>
     <p>LIBURDONG, WEEKENDMANTAP, WEEKENDSERU 프로모션은 토요일, 일요일 전용 프로모션.</p>
@@ -400,7 +400,7 @@
 </tr>
 <tr>
  <td>
-   <img src="https://github.com/KIMJEONGSU/Portfolio/assets/23291338/c24e3d6f-7b0f-4e5c-acd8-03d411a94201" width="100%" height="100%">
+   <img src="photo_f/날짜별프로모션적용여부에따른매출.png" width="100%" height="100%">
     <p><날짜별 프로모션 적용 여부에 따른 매출></p>
     <p>프로모션을 적용한 경우와 아닌 경우의 매출 격차가 점점 증가.</p>
     <p>매년 매출이 증가하다가 2022년 6월에서 7월까지의 가장 많은 매출 감소가 보임</p>
@@ -409,7 +409,7 @@
 </tr>
 <tr>
  <td>
-   <img src="https://github.com/KIMJEONGSU/Portfolio/assets/23291338/f653078f-f245-48f3-bb55-71bced983562" width="100%" height="100%">
+   <img src="photo_f/프로모션비율별개수.png" width="100%" height="100%">
     <p><프로모션 비율별 개수></p>
     <p>프로모션 할인율은 최소 0.1%부터 최대 54.6%까지 존재</p>
     <p>평균적으로는 2.7%의 할인율 유지</p>
@@ -455,7 +455,7 @@
    * 타켓층을 선정하여 제공
       * 평균 이탈률이 가장 높은 20대 중심
       * 40,50대는 전체 고객의 5%밖에 되지 않으므로 20대를 중점으로 프로모션을 진행
-      <img src="https://github.com/KIMJEONGSU/Portfolio/assets/23291338/1cb4e1e9-d8a5-4072-afb2-464a73f749e5" width="50%" height="50%">
+      <img src="photo_f/이탈률.png" width="50%" height="50%">
 
 <br>
 
@@ -463,11 +463,11 @@
 * 이탈 기준 : 재방문까지의 기간이 15을 넘는 경우
    * 활성 고객 중 첫 방문까지의 시간을 보았을때, 활성 고객은 가입 후 15일 이내 모두 접속.
    * 이탈 모형 설계 시 재발문까지 기간이 15일을 기준으로 그 이후에는 휴면 아이디처럼 이탈을 했다고 정하는 것이 좋아보임.
-<img src="https://github.com/KIMJEONGSU/Portfolio/assets/23291338/6ede87d3-f977-4eb0-8bf1-c0af53b66688" width="50%" height="50%">
+<img src="photo_f/첫방문까지의시간.png" width="50%" height="50%">
 
 * 타켓 비율
    * 타켓은 이탈한 고객 약 10%, 이탈하지 않은 고객 약 90%.
-<img src="https://github.com/KIMJEONGSU/Portfolio/assets/23291338/2ffd665b-ebcc-4a35-aa80-fe3a65d6afbf" width="50%" height="50%">
+<img src="photo_f/타켓비율.png" width="50%" height="50%">
 
 * 모델에 사용한 컬럼
    * 타켓과 가장 높은 상관계수를 가지는 것은 배송 제한 날짜.
@@ -486,12 +486,12 @@
       |total_promo|	프로모션 비용	|고객이 방문할 때 프로모션이 주는 영향을 확인할 수 있는 요소|
       |shipment_fee|	배송비	|고객이 구매를 결정하고 결제에 영향을 줄 수 있는 요소|
       |limit_ship	|배송 제한 날짜	|고객이 구매를 결정하고 결제에 영향을 줄 수 있는 요소|
-<img src="https://github.com/KIMJEONGSU/Portfolio/assets/23291338/47dcda91-8d1d-4718-aeb9-be3e98378ad5" width="50%" height="50%">
+<img src="photo_f/피쳐.png" width="70%" height="70%">
 
 * 모델 사용
    * 5개의 모델 실험을 통해 아래와 같은 재현율을 얻음
    * logistic regression 모델은 4개의 모델보다 상대적으로 낮은 정확도를 보여 현 그래프 범위에서는 생략.
-<img src="https://github.com/KIMJEONGSU/Portfolio/assets/23291338/dcf37043-6b5f-464a-b5f6-9b29450fdc44" width="50%" height="50%">
+<img src="photo_f/모.png" width="70%" height="70%">
 
 - 그중에서도 CatBoost모델 사용
    - 빠른 속도로 학습
@@ -507,7 +507,7 @@
    - 실제 타겟 비율 : 10.34% | 예측 타겟 비율: 12.41%
    - 마지막 세션 이후 15일 안에 접속 안하는 유저의 비율은 78.39%로 예측
    - 이탈 가능성은 평균 48.18%로 예측
-<img src="https://github.com/KIMJEONGSU/Portfolio/assets/23291338/2faf7162-c9a5-4697-b630-6c98beb1d106" width="50%" height="50%">
+<img src="photo_f/매트릭스.png" width="50%" height="50%">
 
 <br>
 
