@@ -43,7 +43,7 @@
 <table>
   <tr>
     <td>
-      <img src="https://github.com/KIMJEONGSU/Portfolio/assets/23291338/11d76724-a988-4225-900a-f1ea1ddfb750" width="70%" height="70%">
+      <img src='https://github.com/KIMJEONGSU/js_portfolio/assets/23291338/17fe3771-91a2-4163-929a-485ae78333c0' width="70%" height="70%">
     </td>
     <td>     
         <p><customer 데이터></p>
