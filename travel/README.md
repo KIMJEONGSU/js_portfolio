@@ -98,8 +98,8 @@
 
 <br>
 
-1. selenium을 사용하여 웹 크롤링 후 BigQuery Database에 적재.
-2. BigQuery와 Looker 그리고 웹서버 연동.
+1. selenium을 사용하여 웹 스크래핑 후 BigQuery Database에 적재.
+2. BigQuery와 Looker 그리고 Python 연동.
 3. 사용자가 날짜 입력 또는 기타옵션 선택시 URL 호출
 4. 호출한 URL로 지정된 뷰함수 호출
 5. 호출한 요청을 분석 및 논리 실행
@@ -147,18 +147,16 @@ app
 <br>
 
 #### 2.4. 서비스 구성과 제작 과정 및 문제점, 웹 배포 
-* DB 선정
-  * 오라클 클라우드 DB 생성했지만, 팀원들의 클라우드 계정 생성 불가로 DB 변경.
-  * 데이터 양이 많을때 강점이 있지만, 분석과 운영이 쉬우며 파이썬과 간단하게 연동할 수 있기에 ```Google BigQuery``` 선정.
+* Google BigQuery로 데이터베이스 선정
+  * 필요에 따라 자동으로 확장되는 뛰어난 확장성과 데이터 분석가나 개발자들이 쉽게 접근하고 활용할 수 있는 간편한 사용성 때문에 선정.
 
-- 데이터 크롤링
-  * ```selenium``` 을 통한 동적 웹페이지 크롤링
-  (데이터의 자세한 내용은 위의 데이터 소개 참고)
-  * 크롤링한 데이터는 데이터 프레임 형식으로 저장.
-
-- BigQuery와 Python 연동, 데이터 적재.
-  * google-cloud-bigquery를 사용하여 연동 및 적재.
-  * Google BigQuery 서비스 계정의 키를 발급받고, Credentials,GCP 클라이언트 객체 생성 후 Bigquery 테이블에 적재.
+- Google BigQuery와 Python 연동.
+  * google-cloud-bigquery 설치하여 Python과 연동.
+  * Google BigQuery 서비스 계정의 키를 발급받고, Credentials,GCP 클라이언트 객체 생성 후 Google Bigquery 테이블에 데이터 적재하는 방향으로 진.
+ 
+- 데이터 수집
+  * selenium을 통한 동적 웹페이지 스크래핑
+  * 크롤링한 데이터는 데이터 프레임 형식으로 변환하여 Google Bigquery 테이블에 적재.
 
 - 웹서버 구축과 페이지 구현
   * 필요한 기능을 선택적으로 확장하거나 추가할 수 있고 프로젝트의 크기와 요구 사항에 맞게 유연하게 사용할 수 있기 때문에 Flask를 사용하여 웹서버 구축.

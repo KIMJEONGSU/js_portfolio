@@ -8,11 +8,10 @@
 
 |Programming & Markup Language|__Python__
 |:--------:|:-------:|
-|__IDE & Environment__|__VSCode__|
+|__IDE & Environment__|__VSCode, Docker__|
 |__Database & Cloud DB__|__MongoDB__|
 |__Visualization Analysis__|__metabase__|
 |__Model__|__MLP, LSTM, CNN__|
-|__Deployment__|__Docker__|
 
 <br>
 
@@ -72,7 +71,7 @@
 <br>
 
 #### 2.2. 파이프라인 소개
-![image](https://github.com/KIMJEONGSU/Review_based_text_sentiment_analysis/assets/23291338/f196468d-b0e5-4438-88f9-37b9b432d0d0)
+![스크린샷 2023-07-13 224117](https://github.com/KIMJEONGSU/js_portfolio/assets/23291338/d42d6a7f-3d10-441c-aeaf-72a975dd2a53)
 * 데이터수집 : BeautifulSoup을 이용하여 크롤링 후 MongoDB로 적재.
 * 모델링
   * MongoDB에서 데이터를 로컬 파이썬으로 불러와서 모델학습을 하기엔 데이터베이스에 과부하가 걸릴 수 있음. CSV파일로 저장하여 모델 학습 진행.
@@ -138,8 +137,8 @@
 * 대시보드
   * 레벨 5인 회원들이 주로 많았음.
   * 무신사 특성상 남성 고객이 가장 많고 제품 또한 무신사 제품이 가장 많았음. 
-![image](https://github.com/KIMJEONGSU/Review_based_text_sentiment_analysis/assets/23291338/4c672214-4b71-497a-89a6-53defc9cfebd)
 
+![스크린샷 2023-07-13 223941](https://github.com/KIMJEONGSU/js_portfolio/assets/23291338/38d603c6-88e8-4651-ba21-f04fa271f107)
   
 <br>
 
