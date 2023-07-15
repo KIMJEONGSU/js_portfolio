@@ -194,9 +194,13 @@ app
   * 필요 라이브러리 설치
   * 웹서버 실행 및 보안 그룹 설정
      * 포트 번호는 8080으로 설정.
-  * URL : http://54.180.153.254:8080/
+  * HTTPS 적용
+     * 기존에는 HTTP로 적용되어 있기 때문에 HTTPS로 변경.
+     * 통신 보안을 위해 사설 인증서를 이용해서 개인 SSL 생성. 
+  * URL : https://54.180.153.254:8080/
 
-![image](https://github.com/KIMJEONGSU/js_portfolio/assets/23291338/a6cfad16-f68d-4ee2-a1b2-075d51708e3a)
+![image](https://github.com/KIMJEONGSU/js_portfolio/assets/23291338/5894450c-99ef-4221-8af3-bf70d158700d)
+
 
 
    
