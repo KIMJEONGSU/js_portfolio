@@ -1,11 +1,11 @@
 # JS's portfolio
 
 ### 1. 👗ecommerce ( 인도네시아 이커머스 플랫폼 개선 프로젝트 )   [바로가기](https://github.com/KIMJEONGSU/js_portfolio/tree/main/ecommerce)
-Fashion Campus는 15-35세 젊은 층의 시장 점유율을 보유한 전자 상거래 패션 회사로, 유기적이지 않은 사용자 수의 영향으로 인해 사용자들이 거래를 위해 플랫폼으로 돌아오지 않는 이탈 문제점이 있습니다. 이를 해결하고 이탈 예측하고자함.
-
+Fashion Campus의 현황을 파악하여 문제진단에 따른 액션 도출과 이탈 원인을 파악하여 예측 모델 개발.
 
 - 분석 기간 : 2023.06.07 ~ 2023.07.04
 - 4인 프로젝트
+- 담당 업무 : 호텔 데이터 수집 및 적재, 목록 페이지( 항공권, 호텔, 렌터카 ) 제작, 웹 서버 구축 및 API 배포
 
 |기술스택||
 |--------|-------|
@@ -16,8 +16,8 @@ Fashion Campus는 15-35세 젊은 층의 시장 점유율을 보유한 전자 �
 
 <br>
 
-### 2. 🍊travel ( 여행 경비 안내 웹 서비스 )   [바로가기](https://github.com/KIMJEONGSU/js_portfolio/tree/main/travel)
-제주도 여행 경비를 고려했을 때 고정적으로 발생하는 비용인 항공권, 숙박시설, 렌터카 요금을 합산한 금액을 간단하게 조회해볼 수 없을까 하는 의문과 아직은 항공권, 숙박, 렌터카 요금을 따로 보여주는 웹 서비스만 존재하기 때문에 이를 더 편리하게 하고자함.
+### 2. 🍊travel ( 여행 경비 안내 웹 서비스 )[PL]    [바로가기](https://github.com/KIMJEONGSU/js_portfolio/tree/main/travel)
+Flask를 활용하여 항공권, 숙박, 렌터카의 총 요금을 편리하게 제공하는 웹 서비스 구현 및 배포
 - 분석 기간 : 2023.05.15 ~ 2023.05.25
 - 4인 프로젝트
 
@@ -32,34 +32,32 @@ Fashion Campus는 15-35세 젊은 층의 시장 점유율을 보유한 전자 �
 <br>
 
 ### 3. 🍽️restaurant ( 리뷰 기반 맛집 추천 웹 서비스 )   [바로가기](https://github.com/KIMJEONGSU/js_portfolio/tree/main/restaurant)
-인터넷으로 다양한 정보를 쉽게 접근 가능하지만, 정보 과잉으로 어떤 결정을 하는데 많은 어려움을 느끼는 경우가 많습니다. 이러한 문제를 해결하기 위해 평가나 리뷰를 기반으로 고객에게 쉽고 빠르게 맛집을 찾아주기 위함.
+평가나 리뷰를 기반으로 Doc2Vec 모델을 활용하여 쉽고 빠르게 맛집을 찾아주는 웹 서비스 구현.
 - 분석 기간 : 2023.04.07 ~ 2023.04.12
 - 1인 프로젝트
 
 |기술스택||
 |--------|-------|
 |Programming & Markup Language|__Python, Flask, HTML, JavaScript__|
-|IDE & Environment|__VSCode__|
+|IDE & Environment|__VSCode, Docker__|
 |Database & Cloud DB|__PostgreSQL__|
 |Visualization Analysis|__metabase__|
 |Model|__Doc2Vec__|
-|Deployment|__Docker__|
 
 <br>
 
 ### 4. 😁reivew ( 리뷰데이터를 통한 감정 분석 )   [바로가기](https://github.com/KIMJEONGSU/js_portfolio/tree/main/review)
-현재 MUSINSA 는 입점 된 브랜드들의 매출 극대화를 위해 지원 활동에 나서고 있습니다. 요번 프로젝트에서는 단순히 리뷰 별점으로만 상품에 대해서 평가하는 것이 아닌 사용자들이 직접 작성한 리뷰를 자연어처리를 통해 감정 분석해 보고자 합니다. 이를 통해 고객의 의견을 이해하고 제품 개선 및 마케팅 전략 수립에 활용함으로써, 해당 브랜드에게 분석 내용을 공유하여 매출 극대화를 시키기 위함.
+사용자가 직접 작성한 리뷰를 자연어처리를 통해 감정 분석하기 위한 모델 개발.
 - 분석 기간 : 2023.03.09 ~ 2023.03.13
 - 1인 프로젝트
 
 |기술스택||
 |--------|-------|
 |Programming & Markup Language|__Python__|
-|IDE & Environment|__VSCode__|
+|IDE & Environment|__VSCode, Docker__|
 |Database & Cloud DB|__MongoDB__|
 |Visualization Analysis|__metabase__|
 |Model|__MLP, LSTM, CNN__|
-|Deployment|__Docker__|
 
 <br>
 
