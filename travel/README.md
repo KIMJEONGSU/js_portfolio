@@ -9,10 +9,18 @@
 |Programming & Markup Language|__Python, SQL, Flask, HTML, Bootstrap, JavaScript__|
 |:--------:|:-------:|
 |__IDE & Environment__|__VSCode__|
-|__Database & Cloud DB__|__Google BigQuery__|
+|__Database & Cloud DB__|__BigQuery__|
 |__Visualization Analysis__|__Looker__|
 |__Back_end__|__AWS EC2__|
 
+* 기술 스택 선정 이유
+  * ```Flask``` : 필요한 기능을 선택적으로 확장하거나 추가할 수 있고 프로젝트의 크기와 요구 사항에 맞게 유연하게 사용할 수 있기 때문에 선정.
+  * ```Bigquery``` : 필요에 따라 자동으로 확장되는 뛰어난 확장성과 데이터 분석가나 개발자들이 쉽게 접근하고 활용할 수 있는 간편한 사용성 때문에 선정.
+  * ```Lokker``` : 다양한 데이터 소스와 연동 가능.
+  * ```AWS EC2```
+      * 추후 프로젝트 확장 및 유지보수 시 Lambda, S3 등 다양한 AWS 서비스들과 연계하여 사용할 수 있음
+      * AWS의 Free Tier 로도 Linux 기반 인스턴스를 구축할 수 있어 비용 부담이 덜함
+    
 <br>
 
 ### <목차>
@@ -36,7 +44,7 @@
 
 ### 2. 프로젝트 수행절차  
 #### 2.1. 데이터 소개
-* 항공권   
+* 항공권(김포-제주 / 제주-김포)   
   * 데이터 : 9columns X 22131 rows
   * 출처 : 네이버 항공권 홈페이지
 
@@ -98,7 +106,7 @@
 
 <br>
 
-1. selenium을 사용하여 웹 스크래핑 후 BigQuery Database에 적재.
+1. selenium을 사용하여 웹 스크래핑하여 전처리 및 데이터 프레임 변환 후 BigQuery 에 적재.
 2. BigQuery와 Looker 그리고 Python 연동.
 3. 사용자가 날짜 입력 또는 기타옵션 선택시 URL 호출
 4. 호출한 URL로 지정된 뷰함수 호출
@@ -147,16 +155,18 @@ app
 <br>
 
 #### 2.4. 서비스 구성과 제작 과정 및 문제점, 웹 배포 
-* Google BigQuery로 데이터베이스 선정
+* BigQuery로 데이터베이스 선정
   * 필요에 따라 자동으로 확장되는 뛰어난 확장성과 데이터 분석가나 개발자들이 쉽게 접근하고 활용할 수 있는 간편한 사용성 때문에 선정.
 
 - Google BigQuery와 Python 연동.
   * google-cloud-bigquery 설치하여 Python과 연동.
-  * Google BigQuery 서비스 계정의 키를 발급받고, Credentials,GCP 클라이언트 객체 생성 후 Google Bigquery 테이블에 데이터 적재하는 방향으로 진.
+  * Google BigQuery 서비스 계정의 키를 발급받고, Credentials,GCP 클라이언트 객체 생성 후 Google Bigquery에 데이터 적재하는 방향으로 진행.
  
 - 데이터 수집
-  * selenium을 통한 동적 웹페이지 스크래핑
-  * 크롤링한 데이터는 데이터 프레임 형식으로 변환하여 Google Bigquery 테이블에 적재.
+  * selenium을 통한 동적 웹페이지 스크래핑.
+  * airplane(출발항공권정보), airplanecrawl(도착항공권정보), car, hotelcrawl 테이블 생성.
+  * 크롤링한 데이터는 전처리 과정을 거치고 데이터 프레임 형식으로 변환하여 Bigquery 테이블에 적재.
+  
 
 - 웹서버 구축과 페이지 구현
   * 필요한 기능을 선택적으로 확장하거나 추가할 수 있고 프로젝트의 크기와 요구 사항에 맞게 유연하게 사용할 수 있기 때문에 Flask를 사용하여 웹서버 구축.
@@ -242,3 +252,4 @@ app
 * 사용자 입장에서 봤을때 생각보다 입력해야할 값이 많아서 이탈 가능성이나 피로감을 줄 수도 있겠다는 아쉬움이 있음.
 * 시간 부족으로 인해 호텔 데이터 수집시 날짜나 객실 정보 등 세부적인 데이터를 크롤링 하지 못한 점.
 * AWS에 대한 이론공부 필요.
+* Bigquery는 클라우드 기반의 데이터 웨어하우스 서비스로, 단순히 전처리 후 적재하기 보다는 데이터 구조나 형식에 따라 쿼리 성능이나 분석 결과에 영향을 줄 수 있기 때문에 
