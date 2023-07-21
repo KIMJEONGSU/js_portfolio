@@ -488,6 +488,12 @@
 <img src="photo_f/피쳐.png" width="70%" height="70%">
 
 * 모델 사용
+   * 모델 선정 이유
+      * Logistic Regression : 간단하고 계산속도가 빠르기 때문에 대용량 데이터 적용 가능.
+      * XGBoost : Gradient Boosting 알고리즘의 확장 버전으로, 대용량 데이터와 다양한 피처를 다루기에 적합. 과적합을 방지하고 앙상블 기법으로 여러개의 결정 트리를 조합하여 더 정확한 예측 가능.
+      * Decision Tree : 피처들의 영향력을 쉽게 확인할 수 있고, 스케일에 영향을 받지 않음.
+      * Random Forest : 여러 개의 Decision Tree를 결합한 앙상블 모델로, 높은 예측 성능과 과적합을 줄이고 일반화 성능을 향상시킴. 또한 대용량 데이터에 효과적.
+      * CatBoost : 높은 예측 성능과 빠른 속도 제공.
    * 5개의 모델 실험을 통해 아래와 같은 재현율을 얻음
    * logistic regression 모델은 4개의 모델보다 상대적으로 낮은 정확도를 보여 현 그래프 범위에서는 생략.
 <img src="photo_f/모델.png" width="70%" height="70%">
