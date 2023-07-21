@@ -13,7 +13,7 @@
 |__Visualization Analysis__|__metabase__|
 |__Model__|__MLP, LSTM, CNN__|
 
-* 기술 스택, 모델 선정 이유
+* 기술 스택, 모델 선택 이유
   * ```Docker``` : MongoDB Atlas와 Metabase 간에 독립적인 환경이 생성되기 때문에 의존성이 줄어들고 서로의 환경에 영향을 미치지 않아 더 안정적이고 신뢰성있는 서비스 구축 가능.
   * ```MongoDB Atlas```
     * 다양한 유형의 데이터를 저장할 수 있고, 리소스 사용을 최적화하여 효율적인 비용 관리를 지원함.
