@@ -106,7 +106,7 @@
 
 <br>
 
-1. selenium을 사용하여 웹 스크래핑하여 전처리 및 데이터 프레임 변환 후 BigQuery 에 적재.
+1. selenium을 사용하여 웹 스크래핑하고 전처리 및 데이터 프레임 변환 후 BigQuery 에 적재.
 2. BigQuery와 Looker 그리고 Python 연동.
 3. 사용자가 날짜 입력 또는 기타옵션 선택시 URL 호출
 4. 호출한 URL로 지정된 뷰함수 호출
