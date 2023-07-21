@@ -10,6 +10,7 @@
 |:--------:|:-------:|
 |__IDE & Environment__|__VSCode, Docker__|
 |__Database & Cloud DB__|__PostgreSQL__|
+|__Database Tool__|__DBeaver__|
 |__Visualization Analysis__|__metabase__|
 |__Model__|__Doc2Vec__|
 
@@ -18,10 +19,10 @@
 ### <목차>
 1. 프로젝트 개요
 2. 프로젝트 수행절차
-- 데이터 소개
-- 파이프라인 소개
-- 데이터 전처리
-- Doc2Vec 모델 소개
+  - 데이터 소개
+  - 파이프라인 소개
+  - 데이터 전처리
+  - Doc2Vec 모델 소개
 3. 결과
   - 대시보드
 4. 한계점 및 개선사항
@@ -63,9 +64,9 @@
 #### 2.2. 파이프라인 소개
 ![스크린샷 2023-07-13 224411](https://github.com/KIMJEONGSU/js_portfolio/assets/23291338/4f83b7af-587b-4a03-8c55-fddcd7f228e3)
 
-* 도커로 PostgreSQL과 Metabase 환경 구축
-* 셀레니움과 CSV파일로 수집한 데이터는 PostgreSQL에 적재.
-* 로컬 파이썬에서 PostgreSQL로부터 데이터 가지고와서 전처리 및 모델 학습 진행.
+* Docker로 PostgreSQL과 Metabase 환경 구축
+* selenium과 CSV파일로 수집한 데이터는 가공 후 PostgreSQL에 적재.
+* 로컬 Python에서 PostgreSQL로부터 데이터 가지고와서 전처리 및 모델 학습 진행.
 * 모델 피클링 후 Flask로 전달.
 * 웹 서비스 개발.
 * 웹에서 발생하는 데이터 또한 데이터에 적재 및 대시보드로 표현 가능.
