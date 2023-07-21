@@ -121,15 +121,15 @@
 ```
 airplaneCrawl
 ┖ Start.bat
-┖ airplaneCrawl0701_0715.py # 항공권데이터 크롤링 코드
-┖ airplaneCrawl0716_0731.py # 항공권데이터 크롤링 코드
-┖ airplaneCrawl0801_0815.py # 항공권데이터 크롤링 코드
-┖ airplaneCrawl0816_0831.py # 항공권데이터 크롤링 코드
+┖ airplaneCrawl0701_0715.py # 항공권데이터 스크래핑 코드
+┖ airplaneCrawl0716_0731.py # 항공권데이터 스크래핑 코드
+┖ airplaneCrawl0801_0815.py # 항공권데이터 스크래핑 코드
+┖ airplaneCrawl0816_0831.py # 항공권데이터 스크래핑 코드
 ┖ chromedriver.exe # 크롬드라이버
-┖ hotel_data_crawling.py # 호텔데이터 크롤링 코드
+┖ hotel_data_crawling.py # 호텔데이터 스크래핑 코드
 ┖ 환경.txt # 윈도우 스케줄링을 위한 환경 설정 설명
 hotelCrawl
-┖ hotel_data_crawling.py # 호텔 데이터 크롤
+┖ hotel_data_crawling.py # 호텔 데이터 스크래핑 코드
 app
 ┖ __pycache__
 ┖ config
@@ -145,7 +145,7 @@ app
             ┖ demo.calendar.js #달력 커스텀 및 데이터 출력
         ┖ filght_total_price.js # 항공권, 호텔, 렌트카 경비 합산
 ┖ templates
-      ┖ dashboard1.html # 데이터 분석 대시보
+      ┖ dashboard1.html # 데이터 분석 대시보드드
       ┖ filght.html # 항공권, 호텔, 헨트카 목록 출력
       ┖ main.html # 메인달력, 항공권 최저가, 평균가, 최고가 금액 출력
 ┖ bigquery.py # 웹서버, DB 연결 코드
@@ -165,7 +165,7 @@ app
 - 데이터 수집
   * selenium을 통한 동적 웹페이지 스크래핑.
   * airplane(출발항공권정보), airplanecrawl(도착항공권정보), car, hotelcrawl 테이블 생성.
-  * 크롤링한 데이터는 전처리 과정을 거치고 데이터 프레임 형식으로 변환하여 Bigquery 테이블에 적재.
+  * 스크래핑한 데이터는 전처리 과정을 거치고 데이터 프레임 형식으로 변환하여 Bigquery 테이블에 적재.
   
 
 - 웹서버 구축과 페이지 구현
@@ -250,6 +250,6 @@ app
 * 목록페이지의 경우 Ajax를 사용하여 기능 구현을 했지만, 달력페이지에서 목록페이지로 이동시의 필터링 문제로 form을 사용.
 * 처음 DB선정시 오라클 클라우드 계정 생성 문제로 많은 시간 소요.
 * 사용자 입장에서 봤을때 생각보다 입력해야할 값이 많아서 이탈 가능성이나 피로감을 줄 수도 있겠다는 아쉬움이 있음.
-* 시간 부족으로 인해 호텔 데이터 수집시 날짜나 객실 정보 등 세부적인 데이터를 크롤링 하지 못한 점.
+* 시간 부족으로 인해 호텔 데이터 수집시 날짜나 객실 정보 등 세부적인 데이터를 스크래핑 하지 못한 점.
 * AWS에 대한 이론공부 필요.
 * Bigquery는 클라우드 기반의 데이터 웨어하우스 서비스로, 단순히 전처리 후 적재하기 보다는 데이터 구조나 형식에 따라 쿼리 성능이나 분석 결과에 영향을 줄 수 있기 때문에 
