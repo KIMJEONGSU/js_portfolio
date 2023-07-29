@@ -1,7 +1,7 @@
 # 💰리뷰 데이터를 통한 감정 분석
 사용자가 직접 작성한 리뷰를 자연어처리를 통해 감정 분석하기 위한 모델 개발.
 - 프로젝트 기간 : 2023.03.09 ~ 2023.03.13
-- skills : ```Python```,```Docker```,```MongoDB Atlas```, ```Metabase```
+- skills : ```Python``` ```Docker``` ```MongoDB Atlas``` ```Metabase```
 
 * 기술 스택, 모델 선택 이유
   * ```Docker``` : MongoDB Atlas와 Metabase 간에 독립적인 환경이 생성되기 때문에 의존성이 줄어들고 서로의 환경에 영향을 미치지 않아 더 안정적이고 신뢰성있는 서비스 구축 가능.
