@@ -1,28 +1,9 @@
-# 인도네시아 이커머스 플랫폼 개선 프로젝트
+# 👗이커머스 플랫폼 개선 프로젝트 
+인도네시아 이커머스 플랫폼의 현황을 파악하여 문제진단에 따른 액션 도출과 이탈 원인을 파악하여 예측 모델 개발. **(4인 프로젝트)**
 
-<br>
-
-- 분석 기간 : 2023.06.07 ~ 2023.07.04
-- 4인 프로젝트
-- 기술스택
-
-|Programming & Markup Language|__Python__|
-|:--------:|:-------:|
-|__IDE & Environment__|__VSCode__|
-|__Database & Cloud DB__|__Google Drive__|
-|__Model__|__Logistic Regression, XGBoost, Decision Tree, Random Forest, CatBoost__|
-
-<br>
-
-### <목차>
-1. 프로젝트 개요
-2. 프로젝트 수행절차   
-   2.1 데이터 소개   
-   2.2 EDA   
-   2.3 문제정의   
-   2.4 결과   
-   2.5 이탈 예측 모델   
-4. 한계점 및 개선사항
+- 프로젝트 기간 : 2023.06.07 ~ 2023.07.04
+- 담당업무 : ```EDA``` ```문제 정의``` ```내부 요인 파악``` ```액션 도출```
+- skills : ```Python```  ```Google Drive```
 
 <br>
 
