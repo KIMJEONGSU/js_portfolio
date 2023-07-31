@@ -1,1 +1,2 @@
 travel/app/config/*.json
+__pycache__

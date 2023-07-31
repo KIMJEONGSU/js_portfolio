@@ -1,9 +1,6 @@
 <!DOCTYPE html>
 <html>
-
-  <!-- 대가리대가리대가리대가리대가리대가리대가리대가리대가리 -->
   <head>
-
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
 
@@ -33,11 +30,8 @@
       }
     </style>
   </head>
-
   <body>
-
     <div class="navbar navbar-dark bg-dark shadow-sm d-flex justify-content-center" >
-      
       <div class="container">
         <a href="http://127.0.0.1:5000" class="navbar-brand d-flex align-items-center">
           <strong>AI_17_김정수</strong>
@@ -56,7 +50,6 @@
         </a>
       </div>     
     </div>
-
     <section class="py-5 text-center container">
       <div class="row py-lg-5">
         <div class="col-lg-20 col-md-8 mx-auto">
@@ -101,8 +94,7 @@
           <h3>✅결과</h3>
           <br>
           <h5>시연</h5>
-          <h5>한계점 및 개선사항</h5>
-              
+          <h5>한계점 및 개선사항</h5>   
         </div>
       </div>
     </section>
@@ -160,14 +152,11 @@
       <div class="row py-lg-10">
         <div class="col-lg-30 col-md-10 mx-auto">
           <h1 class="fw-light">RESULT</h1><br>
-
           <form method="post">
             <input type="text" name="input_value">
             <button type="submit" name="submit_button" onclick="func()">Submit</button>
           </form>
-          
           <table class="table">
-            
            <thead>
               <tr>
                 <th scope="col">#</th>
@@ -185,7 +174,6 @@
           {% endfor %}
             </tbody>
           </table>
-
           <script type="text/javascript">
             function func() {
               let input_value = document.getElementsByName("input_value")[0].value;
@@ -195,13 +183,8 @@
               else {
                 var inputValue = document.getElementById("inputValue").value;
 		          	document.getElementById("result").innerHTML = result;
-                
-              }
-              }
-            
+              }}
             </script>
-
-
           <br><p class="lead text-muted">
             <h4>🔍한계점 및 개선사항</h4>
             <br>
@@ -211,7 +194,6 @@
             <br>⚙️Result에서 submit버튼 클릭시 스크롤이 위로 갔다가 다시 아래로 내려옴. 해결 필요해보임.
             <br>⚙️build_vocab() 메서드는 단어와 태그들을 분석하여 모델에서 사용할 단어 사전(vocabulary)을 생성하는데, 
             <br>입력한 검색어가 이 단어사전에 없다면 오류 발생. 해결 필요해보임.
-            
           </p>
         </div>
       </div>

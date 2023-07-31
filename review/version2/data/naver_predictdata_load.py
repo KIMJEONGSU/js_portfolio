@@ -10,7 +10,7 @@ class MongoDBClient:
     def __init__(self):
         self.host = 'cluster0.w3ampdj.mongodb.net'
         self.user = 'text_sentiment'
-        self.password = '????'
+        self.password = '1234'
         self.database_name = 'data'
         self.client = MongoClient(self._mongo_uri())
 

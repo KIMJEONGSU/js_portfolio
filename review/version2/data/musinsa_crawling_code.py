@@ -1,11 +1,9 @@
 # 해당파일은 무신사 리뷰홈페이지에서 크롤링한 후 몽고디비에 바로 적재하도록하는 코드
 import requests
 from bs4 import BeautifulSoup
-from naver_data import MongoDBClient
+from naver_predictdata_load import MongoDBClient
 import re
 import time
-
-
 
 class MusinsaDataLoader():
     def __init__(self, month, day, collection_name):
@@ -13,7 +11,6 @@ class MusinsaDataLoader():
         self.day = day
         self.client = MongoDBClient()
         self.database = self.client.get_database(collection_name)
-
 
     def load_data(self):
         t_list = self.crawling()
@@ -24,7 +21,6 @@ class MusinsaDataLoader():
         title_list=[]
         try:
             for num in range(151,200):
-                
                 time.sleep(2)
                 url = f'https://www.musinsa.com/goods/reviews/lists?type=style&searchYear=2022&searchMonth={self.month}&searchDay={self.day}&maxRt=2023&minRt=2009&brand=&page={num}&sort=new&hashId=&bestType=&s_type=all&searchKeyword='
                 req = requests.get(url)
@@ -40,7 +36,6 @@ class MusinsaDataLoader():
 
                         user_i = f.select_one('div.review-profile__information').text
                         user_info = re.sub("[A-Za-z]|신고|·","",user_i).strip().split()
-
 
                         if user_info==[]:
                             user_info.extend(['모름',0,0])
@@ -77,10 +72,8 @@ class MusinsaDataLoader():
         except Exception as e:
             print(f"Error occurred: {e}")
             pass
-
         return title_list
         
-
 if __name__ == '__main__':
     for i in range(1,13):
         Musinsa = MusinsaDataLoader(i,2,'musinsa_data') #월, 일, 데이터베이스이름 입력
