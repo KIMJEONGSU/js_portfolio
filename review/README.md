@@ -56,13 +56,8 @@
 <br>
 
 #### 2.2. 파이프라인 소개
-![image](https://github.com/KIMJEONGSU/js_portfolio/assets/23291338/aead9e9b-b33c-4c44-b270-f36eac640043)
+![image](https://github.com/KIMJEONGSU/js_portfolio/assets/23291338/ca92b818-278d-4b01-946f-414807e35a89)
 
-* 데이터수집 : BeautifulSoup을 이용하여 웹 스크래핑 후 MongoDB로 적재.
-* 대시보드 : MongoDB와 Metabase를 결합하여 의사결정에 활용하도록 함.
-* 모델링
-  * MongoDB에서 데이터를 로컬 파이썬으로 불러와서 모델학습을 하기엔 데이터베이스에 과부하가 걸릴 수 있음. CSV파일로 저장하여 모델 학습 진행.
-  * 모델로 예측된 결과를 MongoDB에 재저장.
   
 <br>
 
