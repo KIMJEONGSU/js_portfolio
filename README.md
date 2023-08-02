@@ -10,24 +10,24 @@
 <br>
 
 ### 2. 🍊travel ( 여행 경비 안내 웹 서비스 )[PL]    [바로가기](https://github.com/KIMJEONGSU/js_portfolio/tree/main/travel)
-Flask를 활용하여 항공권, 숙박, 렌터카의 총 요금을 편리하게 제공하는 웹 서비스 구현 및 배포 **(4인 프로젝트)**
+데이터 파이프라인(ETL)을 구축하고 Flask를 활용하여 항공권, 숙박, 렌터카의 총 요금을 편리하게 제공하는 웹 서비스 구현 및 배포 **(4인 프로젝트)**
 - 프로젝트 기간 : 2023.05.15 ~ 2023.05.25
-- 담당업무 : ```호텔 데이터 수집 및 가공, 적재``` ```목록 페이지( 항공권, 호텔, 렌터카 ) 제작``` ```웹 서버 구축 및 API 배포```
-- skills : ```Python```,```SQL```,```Flask```, ```HTML```,```Bootstrap```, ```JavaScript```, ```BigQuery```, ```Looker```, ```AWS EC2```
+- 담당업무 : ```호텔 데이터 수집 및 가공, 적재``` ```웹 서버 구축, 기능 구현 및 배포```
+- skills : ```Python``` ```SQL``` ```Flask```  ```HTML``` ```Bootstrap```  ```JavaScript``` ```BigQuery``` ```Looker``` ```AWS EC2```
 
 <br>
 
 ### 3. 🍽️restaurant ( 리뷰 기반 맛집 추천 웹 서비스 )   [바로가기](https://github.com/KIMJEONGSU/js_portfolio/tree/main/restaurant)
 평가나 리뷰를 기반으로 Doc2Vec 모델을 활용하여 쉽고 빠르게 맛집을 찾아주는 웹 서비스 구현.
 - 프로젝트 기간 : 2023.04.07 ~ 2023.04.12
-- skills : ```Python```,```Flask```, ```HTML```,```JavaScript```, ```Docker```, ```PostgreSQL```, ```Metabase```
+- skills : ```Python``` ```Flask``` ```HTML``` ```JavaScript``` ```Docker``` ```PostgreSQL``` ```Metabase```
 
 <br>
 
-### 4. 😁reivew ( 리뷰데이터를 통한 감정 분석 )   [바로가기](https://github.com/KIMJEONGSU/js_portfolio/tree/main/review)
-사용자가 직접 작성한 리뷰를 자연어처리를 통해 감정 분석하기 위한 모델 개발.
+### 4. 😁reivew ( 리뷰 데이터 파이프라인 구축과 모델 개발 )   [바로가기](https://github.com/KIMJEONGSU/js_portfolio/tree/main/review)
+사용자가 직접 작성한 리뷰를 수집하여 데이터베이스에 적재하고, 자연어처리를 통해 감정 분석하기 위한 모델 개발.
 - 프로젝트 기간 : 2023.03.09 ~ 2023.03.13
-- skills : ```Python```,```Docker```,```MongoDB```, ```Metabase```
+- skills : ```Python``` ```Docker``` ```MongoDB``` ```Metabase```
 
 <br>
 
