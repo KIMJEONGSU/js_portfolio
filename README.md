@@ -10,7 +10,7 @@
 <br>
 
 ### 2. 🍊travel ( 여행 경비 안내 웹 서비스 )[PL]    [바로가기](https://github.com/KIMJEONGSU/js_portfolio/tree/main/travel)
-Flask를 활용하여 항공권, 숙박, 렌터카의 총 요금을 편리하게 제공하는 웹 서비스 구현 및 배포 **(4인 프로젝트)**
+데이터 파이프라인(ETL)을 구축하고 Flask를 활용하여 항공권, 숙박, 렌터카의 총 요금을 편리하게 제공하는 웹 서비스 구현 및 배포 **(4인 프로젝트)**
 - 프로젝트 기간 : 2023.05.15 ~ 2023.05.25
 - 담당업무 : ```호텔 데이터 수집 및 가공, 적재``` ```웹 서버 구축, 기능 구현 및 배포```
 - skills : ```Python``` ```SQL``` ```Flask```  ```HTML``` ```Bootstrap```  ```JavaScript``` ```BigQuery``` ```Looker``` ```AWS EC2```
