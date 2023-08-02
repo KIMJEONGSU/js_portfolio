@@ -24,8 +24,8 @@ Flask를 활용하여 항공권, 숙박, 렌터카의 총 요금을 편리하게
 
 <br>
 
-### 4. 😁reivew ( 리뷰데이터를 통한 감정 분석 )   [바로가기](https://github.com/KIMJEONGSU/js_portfolio/tree/main/review)
-사용자가 직접 작성한 리뷰를 자연어처리를 통해 감정 분석하기 위한 모델 개발.
+### 4. 😁reivew ( 리뷰 데이터 파이프라인 구축과 모델 개발 )   [바로가기](https://github.com/KIMJEONGSU/js_portfolio/tree/main/review)
+사용자가 직접 작성한 리뷰를 수집하여 데이터베이스에 적재하고, 자연어처리를 통해 감정 분석하기 위한 모델 개발.
 - 프로젝트 기간 : 2023.03.09 ~ 2023.03.13
 - skills : ```Python``` ```Docker``` ```MongoDB``` ```Metabase```
 
