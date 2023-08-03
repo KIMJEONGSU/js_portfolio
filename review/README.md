@@ -56,8 +56,7 @@
 <br>
 
 #### 2.2. 파이프라인 소개
-![image](https://github.com/KIMJEONGSU/js_portfolio/assets/23291338/ca92b818-278d-4b01-946f-414807e35a89)
-
+![image](https://github.com/KIMJEONGSU/js_portfolio/assets/23291338/454524aa-6e59-42e3-8e1b-fd84825e4543)
   
 <br>
 
