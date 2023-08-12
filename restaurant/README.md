@@ -3,9 +3,6 @@
 - 프로젝트 기간 : 2023.04.07 ~ 2023.04.12
 - skills : ```Python```,```Flask```, ```HTML```,```JavaScript```, ```Docker```, ```PostgreSQL```, ```Metabase```
 
-* 기술 스택, 모델 선택 이유
-  * ```Docker```: PostgreSQL과 Metabase를 Docker로 구축하면 데이터베이스와 대시보드를 간편하게 연동가능. 또한 독립적으로 구축하여 충돌을 피할 수 있음.
-  * ```PostgreSQL```: 리뷰 텍스트가 구조화되어 있고 정형화된 데이터를 처리하는데 효과적임.
     
 <br>
 
