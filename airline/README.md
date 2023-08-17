@@ -1,32 +1,13 @@
 # ✈️항공사 만족도 예측 모델
 
-<br>
-
-- 분석 기간 : 2023.02.03 ~ 2023.02.13
-- 1인 프로젝트
-- 기술스택
-
-|Programming & Markup Language|__Python__|
-|:--------:|:-------:|
-|__IDE & Environment__|__colab__|
-|__Model__| __Logistic, DecisionTree, RandonForest, XGBoost__|
-
-<br>
-
-### <목차>
-1. 프로젝트 개요
-2. 프로젝트 수행절차
-- 데이터 소개
-- 데이터 전처리
-- target, 가설설정
-- 모델 학습 및 평가, 가설 검증
-3. 결과
-4. 한계점 및 개선사항
+- 분석 기간 : 2023.02.03 ~ 2023.02.13 (1인 프로젝트)
+- skills : ```Python```
+- model : ```Logistic``` ```DecisionTree``` ```RandonForest``` ```XGBoost```
 
 <br>
 
 ### 1. 프로젝트 개요
-신생 LCC가 가파른 시장 성장세를 이어나갈 것이라는 전망과 달리 항공업계에선 우려가 만만치 않다. 신규 LCC 합류로 소비자들의 선택 폭은 넓어질 수 있지만 공급과잉과 과당경쟁에 따른 수익성 악화로 이어질 수 있다는 시각이 우세하다. 그렇다면 소비자들이 우리 항공사를 선택할 수 있도록 고객 만족도 예측을 통해 파악하고, 불만 사항이 있다면 개선하려고 한다.
+신생 LCC가 가파른 시장 성장세를 이어나갈 것이라는 전망과 달리 항공업계에선 우려가 만만치 않다. 신규 LCC 합류로 소비자들의 선택 폭은 넓어질 수 있지만 **공급과잉과 과당경쟁에 따른 수익성 악화**로 이어질 수 있다는 시각이 우세하다. 그렇다면 소비자들이 우리 항공사를 선택할 수 있도록 **고객 만족도 예측**을 통해 파악하고, **불만 사항이 있다면 개선**하려고 한다.
 
 <br>
 
@@ -132,10 +113,26 @@
 
 <br>
 
+
 ### 3. 결과
 * 만족도에는 Online boarding의 특성 영향력이 가장 크다. 보통 종이탑승권을 발권하기 위해서는 카운터나 KIOSK를 이용하기 위해 직접 방문해야한다. 하지만 모바일 탑승권을 발행하면 굳이 방문하지 않아도 바로 비행기 탑승이 가능하다. 
 * 즉, 비행기 탑승까지의 과정이 축소된다면 고객의 만족도를 높일 수 있다고 생각한다. 
 * 또한,  그 외에도  "Inflight wifi service“, "Inflight entertainment“의 특성 영향력도 높았다. 기내 안에서 즐길 거리가 다양하다면 고객의 만족도를 높일 수 있다고 생각한다.
+
+<table>
+  <tr>
+    <td>
+      <img src="https://github.com/KIMJEONGSU/js_portfolio/assets/23291338/a348b492-eaed-4ca3-bf15-411519e5836e" width="100%" height="100%">
+    </td>
+    <td>
+      <img src="https://github.com/KIMJEONGSU/js_portfolio/assets/23291338/271c7dcb-7cb4-45b0-8fa0-a78118aa5046" width="100%" height="100%">
+    </td>
+    <td>
+      <img src="https://github.com/KIMJEONGSU/js_portfolio/assets/23291338/f2564021-2bdb-4a11-a194-a3bd7f4ebd9b" width="100%" height="100%">
+    </td>
+  </tr>
+</table>
+
 
 <br>
 
