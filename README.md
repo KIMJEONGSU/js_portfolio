@@ -1,14 +1,5 @@
 # JS's portfolio
 
-## 👗ecommerce ( 이커머스 플랫폼 개선 프로젝트 )   [바로가기](https://github.com/KIMJEONGSU/js_portfolio/tree/main/ecommerce)
-인도네시아 이커머스 플랫폼의 현황을 파악하여 문제진단에 따른 액션 도출과 이탈 원인을 파악하여 예측 모델 개발. **(4인 프로젝트)**
-- 프로젝트 기간 : 2023.06.07 ~ 2023.07.04
-- 담당업무 : ```EDA``` ```문제 정의``` ```내부 요인 파악``` ```액션 도출```
-- skills : ```Python```  ```Google Drive```
-
-
-<br>
-
 ## 🍽️restaurant ( 리뷰 기반 맛집 추천 웹 서비스 )   [바로가기](https://github.com/KIMJEONGSU/js_portfolio/tree/main/restaurant)
 평가나 리뷰를 기반으로 Doc2Vec 모델을 활용하여 쉽고 빠르게 맛집을 찾아주는 웹 서비스 구현.
 - 프로젝트 기간 : 2023.04.07 ~ 2023.04.12
